@@ -1,0 +1,24 @@
+
+.item {
+	border: 1px solid gray;
+	-webkit-border-radius: 4px;
+	        border-radius: 4px;
+	-webkit-box-shadow: #333333 0px 0px 2px;
+	        box-shadow: #333333 0px 0px 2px;
+	width: 353rpx;
+	/* (750 - 350 *2)/3 =  */
+	margin-top: 10px;
+}
+.single-line {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.btn {
+	background-color: #4cd964;
+	display: inline-block;
+	padding: 3px 6px;
+	-webkit-border-radius: 4px;
+	        border-radius: 4px;
+}
+
